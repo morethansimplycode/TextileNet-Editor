@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextileNet Editor", "Textil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Textile Port", "Textile Port\Textile Port.csproj", "{143674DB-9F2B-48B0-A2AA-1EA99FA580D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextileNetEditor Test", "TextileNetEditor Test\TextileNetEditor Test.csproj", "{446E945C-C004-408A-A400-01A995EB1094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextilePortTest", "TextilePortTest\TextilePortTest.csproj", "{214AA08B-BC39-4D94-808D-EF6D325EB134}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{143674DB-9F2B-48B0-A2AA-1EA99FA580D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{143674DB-9F2B-48B0-A2AA-1EA99FA580D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{143674DB-9F2B-48B0-A2AA-1EA99FA580D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{446E945C-C004-408A-A400-01A995EB1094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446E945C-C004-408A-A400-01A995EB1094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446E945C-C004-408A-A400-01A995EB1094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446E945C-C004-408A-A400-01A995EB1094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214AA08B-BC39-4D94-808D-EF6D325EB134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214AA08B-BC39-4D94-808D-EF6D325EB134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214AA08B-BC39-4D94-808D-EF6D325EB134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214AA08B-BC39-4D94-808D-EF6D325EB134}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
