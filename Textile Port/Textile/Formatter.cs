@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Textile.Textile
 {
-    public class DocType
+    public class Formatter
     {
+        public static readonly IFormatter HTML;
+        public static readonly IFormatter LATEX;
     }
 }
