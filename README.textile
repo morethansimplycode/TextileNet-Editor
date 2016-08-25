@@ -1,3 +1,8 @@
 h1. Textile .Net Editor
 
-This is a simple Textile Editor to HTML and Latex. It will port Redcloth to .Net and add some utilities and parsing from HTML to Textile.
+This is a simple but with tons of functionalities Textile Editor to HTML and Latex. It will create a library from scrath for parsing for Textile, HTML, Markdown to HTML, Textile or PDF/Latex. 
+
+This will have a complete Doc Editor, not as complex as Word but enough to write fast and clean html documents. Also, some completing, buttons and a complete syntax wiki.
+
+Made with .Net and WPF.
+
