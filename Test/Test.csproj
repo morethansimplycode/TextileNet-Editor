@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Textile Port\Textile Port.csproj">
+    <ProjectReference Include="..\Textile Port\TextileNet.csproj">
       <Project>{143674db-9f2b-48b0-a2aa-1ea99fa580d0}</Project>
-      <Name>Textile Port</Name>
+      <Name>TextileNet</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
