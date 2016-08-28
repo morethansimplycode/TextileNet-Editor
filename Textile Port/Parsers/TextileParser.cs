@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Textile.Textile
 {
-    class TextileParser : IParser
+    public class TextileParser : IParser
     {
         #region Fields
 
@@ -45,8 +45,23 @@ namespace Textile.Textile
             String line;
             StringBuilder builder = new StringBuilder();
 
-            while ((line = reader.ReadLine()) != null)            
-                builder.Append(Formatter.FormatLine(line));            
+            while ((line = reader.ReadLine()) != null)
+                builder.Append(Formatter.FormatLine(line));
+
+            return builder.ToString();
+        }
+
+        public string ParseLine(String line)
+        {
+            return Formatter.FormatLine(line);
+        }
+
+        public string ParseLines(String[] lines)
+        {
+            StringBuilder builder = new StringBuilder();
+
+            foreach (String line in lines)
+                builder.Append(Formatter.FormatLine(line));
 
             return builder.ToString();
         }

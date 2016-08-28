@@ -9,7 +9,9 @@ namespace Textile.Textile
 {
     public interface IParser
     {
-        String Parse(String input);
+        String Parse(String texts);
         String Parse(TextReader reader);
+        String ParseLine(String line);
+        String ParseLines(String[] line);
     }
 }
