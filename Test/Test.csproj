@@ -50,7 +50,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Textile Port\TextileNet.csproj">
+    <ProjectReference Include="..\TextileNet\TextileNet.csproj">
       <Project>{143674db-9f2b-48b0-a2aa-1ea99fa580d0}</Project>
       <Name>TextileNet</Name>
     </ProjectReference>

@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextileNet Editor", "TextileNet Editor\TextileNet Editor.csproj", "{DE114D34-57E0-4348-8A56-4EB2BACCB9A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextileNet", "Textile Port\TextileNet.csproj", "{143674DB-9F2B-48B0-A2AA-1EA99FA580D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextileNet", "TextileNet\TextileNet.csproj", "{143674DB-9F2B-48B0-A2AA-1EA99FA580D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextileNetEditor Test", "TextileNetEditor Test\TextileNetEditor Test.csproj", "{446E945C-C004-408A-A400-01A995EB1094}"
 EndProject
