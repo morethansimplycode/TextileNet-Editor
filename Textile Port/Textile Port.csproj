@@ -41,14 +41,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Textile\Formatter.cs" />
+    <Compile Include="Formatters\Formatter.cs" />
     <Compile Include="Parsers\TextileParser.cs" />
-    <Compile Include="Textile\HtmlFormatter.cs" />
-    <Compile Include="Textile\IFormatter.cs" />
+    <Compile Include="Formatters\HtmlFormatter.cs" />
+    <Compile Include="Formatters\IFormatter.cs" />
     <Compile Include="Parsers\IParser.cs" />
     <Compile Include="Util\RegexUtils.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Textile\" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="E:\Proyectos Visual\TFS2\Cartif\Cartif\Cartif\Cartif.csproj">
       <Project>{302c6511-d900-4da4-9df1-abbbae96a0a0}</Project>
