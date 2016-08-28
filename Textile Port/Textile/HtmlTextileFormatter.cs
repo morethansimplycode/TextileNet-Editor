@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Textile.Textile
 {
-    public interface IFormatter
+    public class HtmlTextileFormatter : IFormatter
     {
-        String FormatLine(String input);
+
+        public string FormatLine(string input)
+        {
+            return "";
+        }
     }
 }

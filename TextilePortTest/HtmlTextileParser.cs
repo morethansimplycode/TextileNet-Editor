@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace TextilePortTest
 {
     [TestClass]
-    public class UnitTest1
+    public class HtmlTextileParser
     {
         [TestMethod]
         public void TestMethod1()
