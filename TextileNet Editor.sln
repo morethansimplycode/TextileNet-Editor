@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextileNet", "TextileNet\Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextileNetEditor Test", "TextileNetEditor Test\TextileNetEditor Test.csproj", "{446E945C-C004-408A-A400-01A995EB1094}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextilePortTest", "TextilePortTest\TextilePortTest.csproj", "{214AA08B-BC39-4D94-808D-EF6D325EB134}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextileNet Test", "TextilePortTest\TextileNet Test.csproj", "{214AA08B-BC39-4D94-808D-EF6D325EB134}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cartif", "E:\Proyectos Visual\TFS2\Cartif\Cartif\Cartif\Cartif.csproj", "{302C6511-D900-4DA4-9DF1-ABBBAE96A0A0}"
 EndProject
