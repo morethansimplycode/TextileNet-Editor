@@ -77,5 +77,9 @@ namespace Textile.Textile
         }
 
         #endregion
+
+        #region Regex
+
+        #endregion
     }
 }

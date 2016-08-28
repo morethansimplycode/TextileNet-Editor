@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextilePortTest", "TextileP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cartif", "E:\Proyectos Visual\TFS2\Cartif\Cartif\Cartif\Cartif.csproj", "{302C6511-D900-4DA4-9DF1-ABBBAE96A0A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{FC3860B2-C6FE-4D27-A538-8E67F0B58D87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{302C6511-D900-4DA4-9DF1-ABBBAE96A0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{302C6511-D900-4DA4-9DF1-ABBBAE96A0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{302C6511-D900-4DA4-9DF1-ABBBAE96A0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3860B2-C6FE-4D27-A538-8E67F0B58D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3860B2-C6FE-4D27-A538-8E67F0B58D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3860B2-C6FE-4D27-A538-8E67F0B58D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3860B2-C6FE-4D27-A538-8E67F0B58D87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

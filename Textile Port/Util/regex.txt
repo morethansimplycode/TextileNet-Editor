@@ -1,0 +1,15 @@
+﻿
+Developed till now:
+
+^(b[qc]|div|notextile|pre|h[1-6]|fn\\d+|p|###)(?:(?:\((.*)\)))?\.(?:.)+$
+
+^(b[qc]|div|notextile|pre|h[1-6]|fn\\d+|p|###) -> Block Pattern
+(?:(?:\((.+)\)))?                              -> Attributes Pattern
+\.?                                            -> Dot
+(?:.)+$                                        -> Inner text
+
+
+TODO: 
+
+Complete attributes with css-styles {}, language [], aligment <>= and indentation ().
+Complete the inner text matches with phrase modifiers

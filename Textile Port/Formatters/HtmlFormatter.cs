@@ -8,10 +8,15 @@ namespace Textile.Textile
 {
     public class HtmlFormatter : IFormatter
     {
+        public HtmlFormatter()
+        {
+
+        }
 
         public string FormatLine(string input)
         {
             return "";
         }
     }
+    
 }

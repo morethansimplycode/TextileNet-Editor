@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace Textile.Textile
+namespace Textile.Util
 {
     public class MarkRegex
     {
