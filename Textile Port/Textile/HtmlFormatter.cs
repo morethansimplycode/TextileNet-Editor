@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Textile.Textile
 {
-    public class HtmlTextileFormatter : IFormatter
+    public class HtmlFormatter : IFormatter
     {
 
         public string FormatLine(string input)

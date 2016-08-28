@@ -35,12 +35,12 @@ namespace Textile.Textile
 
         #region Parsing
 
-        public string Parse(string text)
+        public String Parse(string text)
         {
             return Parse(new StringReader(text));
         }
 
-        public string Parse(TextReader reader)
+        public String Parse(TextReader reader)
         {
             String line;
             StringBuilder builder = new StringBuilder();
@@ -51,12 +51,12 @@ namespace Textile.Textile
             return builder.ToString();
         }
 
-        public string ParseLine(String line)
+        public String ParseLine(String line)
         {
             return Formatter.FormatLine(line);
         }
 
-        public string ParseLines(String[] lines)
+        public String ParseLines(String[] lines)
         {
             StringBuilder builder = new StringBuilder();
 
@@ -64,6 +64,16 @@ namespace Textile.Textile
                 builder.Append(Formatter.FormatLine(line));
 
             return builder.ToString();
+        }
+
+        public String[] FormatLines(String[] lines)
+        {
+            int length = lines.Length;
+
+            for (int i = 0; i < length; i++)
+                lines[i] = Formatter.FormatLine(lines[i]);
+
+            return lines;
         }
 
         #endregion

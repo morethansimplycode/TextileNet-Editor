@@ -43,7 +43,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Textile\Formatter.cs" />
     <Compile Include="Parsers\TextileParser.cs" />
-    <Compile Include="Textile\HtmlTextileFormatter.cs" />
+    <Compile Include="Textile\HtmlFormatter.cs" />
     <Compile Include="Textile\IFormatter.cs" />
     <Compile Include="Parsers\IParser.cs" />
     <Compile Include="Util\RegexUtils.cs" />
