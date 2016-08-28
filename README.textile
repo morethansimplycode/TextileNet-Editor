@@ -1,6 +1,6 @@
 h1. Textile .Net Editor
 
-This is a simple but with tons of functionalities Textile Editor to HTML and Latex. It will create a library from scrath for parsing for Textile, HTML, Markdown to HTML, Textile or PDF/Latex. 
+This is a simple but with tons of functionalities Textile Editor to HTML and Latex. It will create a library from scrath for parsing Textile, HTML, Markdown to HTML, Textile or PDF/Latex. 
 
 This will have a complete Doc Editor, not as complex as Word but enough to write fast and clean html documents. Also, some completing, buttons and a complete syntax wiki.
 
