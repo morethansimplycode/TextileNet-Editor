@@ -3,10 +3,11 @@ Developed till now:
 
 ^(b[qc]|div|notextile|pre|h[1-6]|fn\\d+|p|###)(?:(?:\((.*)\)))?\.(?:.)+$
 
-^(b[qc]|div|notextile|pre|h[1-6]|fn\\d+|p|###) -> Block Pattern
-(?:(?:\((.+)\)))?                              -> Attributes Pattern
-\.?                                            -> Dot
-(?:.)+$                                        -> Inner text
+^(?<block>b[qc]|div|notextile|pre|h[1-6]|fn\\d+|p|###)               -> Block Pattern
+(?:(?:\((?<clid>[a-zA-Z][a-zA-Z#0-9\-_\.\:]+)\))                    -> Attributes Pattern (Class and Id, Must split on #)
+|(?:{(?<style>[a-zA-Z][a-zA-Z#0-9\-_\.\:;\n\r]+)}))?         -> Attributes Pattern (styles)
+\.?                                                          -> Dot
+(?:.)+$                                                      -> Inner text
 
 
 TODO: 
