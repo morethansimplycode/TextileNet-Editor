@@ -3,9 +3,13 @@ Developed till now:
 
 ^(b[qc]|div|notextile|pre|h[1-6]|fn\\d+|p|###)(?:(?:\((.*)\)))?\.(?:.)+$
 
-^(?<block>b[qc]|div|notextile|pre|h[1-6]|fn\\d+|p|###)               -> Block Pattern
-(?:(?:\((?<clid>[a-zA-Z][a-zA-Z#0-9\-_\.\:]+)\))                    -> Attributes Pattern (Class and Id, Must split on #)
-|(?:{(?<style>[a-zA-Z][a-zA-Z#0-9\-_\.\:;\n\r]+)}))?         -> Attributes Pattern (styles)
+^(?<block>b[qc]|div|notextile|pre|h[1-6]|fn\\d+|p|###)       -> Block Pattern
+(?:\((?<clid>[a-zA-Z][a-zA-Z#0-9\-_\.\:]+)\))?               -> Attributes Pattern (Class and Id, Must split on #)
+(?:{(?<style>[a-zA-Z][a-zA-Z#0-9\-_\.\:;\n\r]+)})?           -> Attributes Pattern (styles)
+(?:\[(?<lang>[a-zA-Z]+)\])?                                  -> Attributes Pattern (lang)
+(?<align>[<>=])?                                             -> Attributes Pattern (align)
+(?<indentation>[\(\)]+)?                                     -> Attributes Pattern (indent)
+                                                             -> End of attributes
 \.?                                                          -> Dot
 (?:.)+$                                                      -> Inner text
 
